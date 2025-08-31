@@ -4,6 +4,9 @@
 import React from 'react'
 import './App.css'
 import ProfileCard from './components/ProfileCard'
+import David from './assets/DevDavid.jpeg'
+import Lawyer from './assets/lawyer.jpg'
+// import ContentCreator from './assets/Content-Creator.png'
 
 function App() {
 
@@ -12,17 +15,17 @@ function App() {
     <div className="app-container">
       <ProfileCard
         name="David Emmanuel"
-        image="./assets/DevDavid.jpeg"
+        image={Images}
         description="Full Stack Developer passionate about modern web technologies and design."
       />
       <ProfileCard
         name="Honourable Layi"
-        image="./assets/lawyer.jpg"
+        image={Lawyer}
         description="UI/UX Designer with a keen eye for usability and aesthetics."
       />
       <ProfileCard
         name="Kagan"
-        image="./assets/Content-Creator.png"
+        image={ContentCreator}
         description="Mobile App Engineer building seamless cross-platform experiences."
       />
     </div>
