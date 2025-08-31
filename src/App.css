@@ -1,0 +1,14 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  background: #f6f8fb;
+  min-height: 100vh;
+}
